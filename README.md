@@ -10,8 +10,8 @@ pip install djangorestframework
 pip install django-allauth
 pip install dj-rest-auth
 
-django-admin startproject movie
-python3 manage.py startapp movie_list
+django-admin startproject shop
+python3 manage.py startapp user
 
 # Настройка базы данных
 python3 manage.py makemigrations
