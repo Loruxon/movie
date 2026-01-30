@@ -5,6 +5,11 @@ source venv/bin/activate
 
 # Установка Django и создание проекта
 pip3 install django
+
+pip install djangorestframework
+pip install django-allauth
+pip install dj-rest-auth
+
 django-admin startproject movie
 python3 manage.py startapp movie_list
 
